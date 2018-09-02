@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "southcentralus"
+        },
+        "virtualMachineName": {
+            "value": "VM-HA-01"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "adminUsername": {
+            "value": "master"
+        },
+        "virtualNetworkName": {
+            "value": "VNET-70-532"
+        },
+        "networkInterfaceName": {
+            "value": "vm-ha-01789"
+        },
+        "diskSizeGB": {
+            "value": "31"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "availabilitySetName": {
+            "value": "AS-TEST"
+        },
+        "subnetName": {
+            "value": "default"
+        }
+    }
+}
