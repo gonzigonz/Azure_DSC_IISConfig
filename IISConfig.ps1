@@ -8,7 +8,7 @@ configuration IISConfig {
       File DirectoryCreated {
             Ensure = 'Present'
             Type = 'Directory'
-            DestinationPath = 'C:\Users\All Users\Desktop\gonzwashere.txt'
+            DestinationPath = 'C:\Users\All Users\Desktop\gonzwashere'
       }
    }
 }
