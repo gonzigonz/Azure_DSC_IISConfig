@@ -1,3 +1,5 @@
 parameters.json
 App.config
 .vs
+bin
+obj
