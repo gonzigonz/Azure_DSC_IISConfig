@@ -1,0 +1,15 @@
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\obj\Debug\AzureTables.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\bin\Debug\AzureTables.exe.config
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\bin\Debug\AzureTables.exe
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\bin\Debug\AzureTables.pdb
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\obj\Debug\AzureTables.csproj.CopyComplete
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\obj\Debug\AzureTables.exe
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\obj\Debug\AzureTables.pdb
+C:\Users\Gonzalo\DATA\GitHub\Azure_DSC_IISConfig\2.StorageAndData\AzureTables\AzureTables\obj\Debug\AzureTables.csprojAssemblyReference.cache
