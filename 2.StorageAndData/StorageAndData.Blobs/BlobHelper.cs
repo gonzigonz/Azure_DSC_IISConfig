@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
+using Microsoft.WindowsAzure.Storage.Shared.Protocol;
 
 namespace StorageAndData.Blobs
 {
@@ -106,6 +107,23 @@ namespace StorageAndData.Blobs
             // Commented below is an alternative
             //destBlockBlob.StartCopy(new Uri(srcBlockBlob.Uri.AbsoluteUri));
             log.AppendLine($"Blob '{srcBlockBlob.Uri}' copied to '{destBlockBlob.Uri}'");
+
+            return log.ToString();
+        }
+        public static async Task<string> CreateCORSPolicy(CloudBlobContainer container)
+        {
+            var log = new StringBuilder();
+            log.AppendLine("Setting Storage CORS rule...");
+
+            var serviceProperties = new ServiceProperties();
+            serviceProperties.Cors.CorsRules.Add(new CorsRule
+            {
+                AllowedMethods = CorsHttpMethods.Get,
+                AllowedOrigins = new string[] { "http://localhost:8088" },
+                MaxAgeInSeconds = 3600
+            });
+            await container.ServiceClient.SetServicePropertiesAsync(serviceProperties);
+            log.AppendLine("New CORS rule added!");
 
             return log.ToString();
         }
